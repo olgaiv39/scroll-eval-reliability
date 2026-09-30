@@ -1,0 +1,221 @@
+{
+ "status": "passed",
+ "scoring_invoked": false,
+ "bootstrap_invoked": false,
+ "corpus_sha256": "e244a9074017924ff8ceb5a156bad9044f0e902de4f0352570da46caf8036b5a",
+ "alarm_sha256": "283d385b1220d4771397ecc276c73c65f989842c71fc0d4f8f751fc8d2b68f38",
+ "prerequisites": {
+  "phase0": {
+   "path": "manifests/acquired-files.tsv",
+   "records": 16,
+   "kinds": {
+    "github_metadata": 2,
+    "source": 9,
+    "v1_metadata": 4,
+    "v1_alarm_export": 1
+   },
+   "verified": 16
+  },
+  "phase1": {
+   "path": "manifests/phase1-acquired-files.tsv",
+   "records": 1186,
+   "kinds": {
+    "source": 4,
+    "geometry": 1182
+   },
+   "verified": 1186
+  },
+  "corpus_sha256": "e244a9074017924ff8ceb5a156bad9044f0e902de4f0352570da46caf8036b5a",
+  "alarm_sha256": "283d385b1220d4771397ecc276c73c65f989842c71fc0d4f8f751fc8d2b68f38",
+  "baseline": {
+   "expected": {
+    "hits": 24,
+    "events": 213,
+    "false_alarms": 70,
+    "per_100mm": 0.42646495768486786,
+    "coverage": [
+     237,
+     237
+    ],
+    "settings": {
+     "match_mm": 1.0,
+     "fa_dedup_mm": 0.5,
+     "per_patch_cap": 3,
+     "bootstrap": 2000,
+     "seed": 20260925
+    }
+   },
+   "observed": {
+    "hits": 24,
+    "events": 213,
+    "false_alarms": 70,
+    "per_100mm": 0.42646495768486786,
+    "coverage": [
+     237,
+     237
+    ],
+    "settings": {
+     "match_mm": 1.0,
+     "fa_dedup_mm": 0.5,
+     "per_patch_cap": 3,
+     "bootstrap": 2000,
+     "seed": 20260925
+    }
+   },
+   "exact": {
+    "hits": true,
+    "events": true,
+    "false_alarms": true,
+    "coverage": true,
+    "settings": true,
+    "per_100mm": true
+   },
+   "all_exact": true,
+   "displayed": {
+    "per_100mm_2dp": "0.43"
+   },
+   "resources": {
+    "wall_seconds": 8.382670513994526,
+    "peak_rss_bytes_macos": 242675712,
+    "wall_limit_seconds": 900
+   }
+  }
+ },
+ "checks": [
+  {
+   "name": "original",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "reverse",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "lexicographic_xyz",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_00",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_01",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_02",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_03",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_04",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_05",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_06",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_07",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_08",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_09",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_10",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_11",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_12",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_13",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_14",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_15",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_16",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_17",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_18",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_19",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "roundtrip",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "duplicate",
+   "passed": true,
+   "errors": []
+  },
+  {
+   "name": "permutation_15_bootstrap2000",
+   "passed": true,
+   "errors": [],
+   "intentional_difference": "bootstrap is 2000 here and 0 in the point-estimate worker"
+  }
+ ],
+ "errors": [],
+ "baseline_denominator": 16414.00981220263,
+ "historical_equivalence_normalized_in_memory": false,
+ "bootstrap_note": "permutation_15 bootstrap 2000 is intentionally compared with its bootstrap 0 point-estimate counterpart"
+}

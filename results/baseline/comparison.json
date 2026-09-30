@@ -1,0 +1,53 @@
+{
+ "expected": {
+  "hits": 24,
+  "events": 213,
+  "false_alarms": 70,
+  "per_100mm": 0.42646495768486786,
+  "coverage": [
+   237,
+   237
+  ],
+  "settings": {
+   "match_mm": 1.0,
+   "fa_dedup_mm": 0.5,
+   "per_patch_cap": 3,
+   "bootstrap": 2000,
+   "seed": 20260925
+  }
+ },
+ "observed": {
+  "hits": 24,
+  "events": 213,
+  "false_alarms": 70,
+  "per_100mm": 0.42646495768486786,
+  "coverage": [
+   237,
+   237
+  ],
+  "settings": {
+   "match_mm": 1.0,
+   "fa_dedup_mm": 0.5,
+   "per_patch_cap": 3,
+   "bootstrap": 2000,
+   "seed": 20260925
+  }
+ },
+ "exact": {
+  "hits": true,
+  "events": true,
+  "false_alarms": true,
+  "coverage": true,
+  "settings": true,
+  "per_100mm": true
+ },
+ "all_exact": true,
+ "displayed": {
+  "per_100mm_2dp": "0.43"
+ },
+ "resources": {
+  "wall_seconds": 8.382670513994526,
+  "peak_rss_bytes_macos": 242675712,
+  "wall_limit_seconds": 900
+ }
+}

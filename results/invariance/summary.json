@@ -1,0 +1,123 @@
+{
+ "prerequisites": {
+  "phase0": {
+   "path": "manifests/acquired-files.tsv",
+   "records": 16,
+   "kinds": {
+    "github_metadata": 2,
+    "source": 9,
+    "v1_metadata": 4,
+    "v1_alarm_export": 1
+   },
+   "verified": 16
+  },
+  "phase1": {
+   "path": "manifests/phase1-acquired-files.tsv",
+   "records": 1186,
+   "kinds": {
+    "source": 4,
+    "geometry": 1182
+   },
+   "verified": 1186
+  },
+  "corpus_sha256": "e244a9074017924ff8ceb5a156bad9044f0e902de4f0352570da46caf8036b5a",
+  "alarm_sha256": "283d385b1220d4771397ecc276c73c65f989842c71fc0d4f8f751fc8d2b68f38",
+  "baseline": {
+   "expected": {
+    "hits": 24,
+    "events": 213,
+    "false_alarms": 70,
+    "per_100mm": 0.42646495768486786,
+    "coverage": [
+     237,
+     237
+    ],
+    "settings": {
+     "match_mm": 1.0,
+     "fa_dedup_mm": 0.5,
+     "per_patch_cap": 3,
+     "bootstrap": 2000,
+     "seed": 20260925
+    }
+   },
+   "observed": {
+    "hits": 24,
+    "events": 213,
+    "false_alarms": 70,
+    "per_100mm": 0.42646495768486786,
+    "coverage": [
+     237,
+     237
+    ],
+    "settings": {
+     "match_mm": 1.0,
+     "fa_dedup_mm": 0.5,
+     "per_patch_cap": 3,
+     "bootstrap": 2000,
+     "seed": 20260925
+    }
+   },
+   "exact": {
+    "hits": true,
+    "events": true,
+    "false_alarms": true,
+    "coverage": true,
+    "settings": true,
+    "per_100mm": true
+   },
+   "all_exact": true,
+   "displayed": {
+    "per_100mm_2dp": "0.43"
+   },
+   "resources": {
+    "wall_seconds": 8.382670513994526,
+    "peak_rss_bytes_macos": 242675712,
+    "wall_limit_seconds": 900
+   }
+  }
+ },
+ "float_tolerance": 1e-12,
+ "order_variants": {
+  "n": 23,
+  "false_alarm_count": {
+   "min": 56,
+   "median": 63,
+   "max": 70
+  },
+  "rate_per_100mm": {
+   "min": 0.3411719661478943,
+   "median": 0.3838184619163811,
+   "max": 0.42646495768486786
+  },
+  "minimum": "permutation_15",
+  "maximum": "original"
+ },
+ "extremes": {
+  "minimum": {
+   "name": "permutation_15",
+   "bootstrap": 2000,
+   "reused_baseline": false,
+   "recall_bootstrap95": [
+    0.07142010832769126,
+    0.15859751327761534
+   ],
+   "fa_bootstrap95": [
+    0.11527014133768143,
+    0.6418447464727696
+   ]
+  },
+  "maximum": {
+   "name": "original",
+   "bootstrap": 2000,
+   "reused_baseline": true,
+   "recall_bootstrap95": [
+    0.07142010832769126,
+    0.15859751327761534
+   ],
+   "fa_bootstrap95": [
+    0.1448535786954164,
+    0.825909951303734
+   ]
+  }
+ }
+}

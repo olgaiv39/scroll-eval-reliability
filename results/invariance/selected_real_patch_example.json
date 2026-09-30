@@ -1,0 +1,192 @@
+{
+ "selected_after_experiment": true,
+ "patch": "auto_grown_20260420125348089_region_000",
+ "thresholds": {
+  "match_mm": 1.0,
+  "fa_dedup_mm": 0.5,
+  "voxel_mm": 0.0096,
+  "match_voxels": 104.16666666666667,
+  "fa_dedup_voxels": 52.083333333333336
+ },
+ "original": {
+  "input_path": "upstream/source/results/switchbench_natural_v1_leaderboard/alarms/tifxyz-doctor_coherent-normal-step__default.json",
+  "input_sha256": "283d385b1220d4771397ecc276c73c65f989842c71fc0d4f8f751fc8d2b68f38",
+  "input_points": 43,
+  "retained_count": 8,
+  "retained": [
+   {
+    "input_index": 0,
+    "coordinate": [
+     3764.8218383789062,
+     5119.4171142578125,
+     16243.808349609375
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 7,
+    "coordinate": [
+     3786.31298828125,
+     5091.5684814453125,
+     16288.715576171875
+    ],
+    "event_excluded": false,
+    "confirmed_negative_runs": [
+     {
+      "corpus_negative_index": 1297,
+      "axis": "row",
+      "rc0": [
+       6,
+       6
+      ],
+      "rc1": [
+       6,
+       59
+      ]
+     }
+    ]
+   },
+   {
+    "input_index": 11,
+    "coordinate": [
+     3795.9152221679688,
+     5082.718017578125,
+     16347.080810546875
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 23,
+    "coordinate": [
+     3796.7322387695312,
+     5038.972412109375,
+     16307.623291015625
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 24,
+    "coordinate": [
+     3808.1602783203125,
+     5033.04638671875,
+     16383.346435546875
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 31,
+    "coordinate": [
+     3812.6136474609375,
+     5003.406005859375,
+     16433.07275390625
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 37,
+    "coordinate": [
+     3805.5611572265625,
+     4971.6990966796875,
+     16479.0087890625
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 42,
+    "coordinate": [
+     3799.869140625,
+     5254.142578125,
+     16741.63525390625
+    ],
+    "event_excluded": false,
+    "confirmed_negative_runs": []
+   }
+  ],
+  "false_alarm_count_from_contributions": 1
+ },
+ "permutation_15": {
+  "input_path": "results/invariance/inputs/permutation_15.json",
+  "input_sha256": "135a34f4430ef247890ab51eb9f8a0a55a58fd95762d8dc4005239881bcd5c0a",
+  "input_points": 43,
+  "retained_count": 6,
+  "retained": [
+   {
+    "input_index": 0,
+    "coordinate": [
+     3774.4384155273438,
+     5103.3739013671875,
+     16248.790771484375
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 1,
+    "coordinate": [
+     3796.0283203125,
+     5078.344482421875,
+     16328.537109375
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 2,
+    "coordinate": [
+     3814.3759765625,
+     5027.9715576171875,
+     16347.399658203125
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 5,
+    "coordinate": [
+     3811.2184448242188,
+     5018.004638671875,
+     16408.203125
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 16,
+    "coordinate": [
+     3810.2438354492188,
+     4988.526611328125,
+     16456.74853515625
+    ],
+    "event_excluded": true,
+    "confirmed_negative_runs": []
+   },
+   {
+    "input_index": 24,
+    "coordinate": [
+     3799.869140625,
+     5254.142578125,
+     16741.63525390625
+    ],
+    "event_excluded": false,
+    "confirmed_negative_runs": []
+   }
+  ],
+  "false_alarm_count_from_contributions": 0
+ },
+ "verified_saved_counts": {
+  "original": {
+   "retained": 8,
+   "false_alarms": 1
+  },
+  "permutation_15": {
+   "retained": 6,
+   "false_alarms": 0
+  }
+ }
+}

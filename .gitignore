@@ -1,0 +1,18 @@
+
+# Local environment and acquired data
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+data/
+upstream/
+.env
+.env.*
+*.log
+*.zip
+
+# Local working instructions
+PROJECT_RULES.md
+SESSION_CHECKPOINT.md

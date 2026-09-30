@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3169,
+      "sha256": "408eddc2dfe94e13f04c74565e7b4868934548db34e8deb70821ed79b7b4d33b"
+    },
+    {
+      "path": "reports/STUDY.md",
+      "bytes": 5777,
+      "sha256": "56fcc1d35b48a9a9a8a44e01ec5835cf31d12a28554e2ad708118a0669e48fb4"
+    },
+    {
+      "path": "reports/CLAIM_CHECK.md",
+      "bytes": 4113,
+      "sha256": "d7a01bf6da3389951955093bc4ea5579bb5800b3de4b62b336bf7804604e456e"
+    },
+    {
+      "path": "reports/study.svg",
+      "bytes": 5939,
+      "sha256": "4ec94504f8b834ccd2a67b02f1262dbf2c0f35ddeaf7287e24b873abf54f6a81"
+    },
+    {
+      "path": "scripts/render_report.py",
+      "bytes": 3946,
+      "sha256": "28e3259f08c80f56b437d8839b6bf64d684d79c3e28fc72be611310f46670dbc"
+    },
+    {
+      "path": "SESSION_CHECKPOINT.md",
+      "bytes": 1756,
+      "sha256": "9d157024d12013370c8a44a8c7f17201167eb5013f81e5b50bab60eb314b81f6"
+    }
+  ]
+}

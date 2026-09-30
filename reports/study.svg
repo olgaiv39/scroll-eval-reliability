@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="500" viewBox="0 0 1180 500" role="img" aria-labelledby="title desc">
+<title id="title">False alarms across SwitchBench alarm-order variants</title>
+<desc id="desc">Twenty-three order variants in frozen protocol order, shown on a zero-based false-alarm axis. Original is marked in blue. Roundtrip and duplicate controls each scored 70 false alarms.</desc>
+<rect width="1180" height="500" fill="white"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;fill:#20242a}.title{font-size:22px;font-weight:700}.sub{font-size:13px;fill:#58616c}.axis{font-size:12px;fill:#58616c}.label{font-size:10px;fill:#58616c}.note{font-size:12px;fill:#424b55}</style>
+<text id="title-text" x="72" y="34" class="title">False alarms across equivalent alarm orders</text>
+<text x="72" y="56" class="sub">Fixed detector export and scorer settings · 23 variants in protocol order · zero-based axis</text>
+<line x1="72" y1="388.0" x2="1140" y2="388.0" stroke="#9aa5b1" stroke-width="1"/>
+<text x="60" y="392.0" text-anchor="end" class="axis">0</text>
+<line x1="72" y1="343.7" x2="1140" y2="343.7" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="347.7" text-anchor="end" class="axis">10</text>
+<line x1="72" y1="299.4" x2="1140" y2="299.4" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="303.4" text-anchor="end" class="axis">20</text>
+<line x1="72" y1="255.1" x2="1140" y2="255.1" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="259.1" text-anchor="end" class="axis">30</text>
+<line x1="72" y1="210.9" x2="1140" y2="210.9" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="214.9" text-anchor="end" class="axis">40</text>
+<line x1="72" y1="166.6" x2="1140" y2="166.6" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="170.6" text-anchor="end" class="axis">50</text>
+<line x1="72" y1="122.3" x2="1140" y2="122.3" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="126.3" text-anchor="end" class="axis">60</text>
+<line x1="72" y1="78.0" x2="1140" y2="78.0" stroke="#dfe5ea" stroke-width="1"/>
+<text x="60" y="82.0" text-anchor="end" class="axis">70</text>
+<line x1="72" y1="78" x2="72" y2="388" stroke="#7b8794"/>
+<rect x="76.0" y="78.0" width="38.4" height="310.0" fill="#1769aa"/>
+<text x="95.2" y="405" text-anchor="middle" class="label">O</text>
+<rect x="122.4" y="109.0" width="38.4" height="279.0" fill="#d86c5b"/>
+<text x="141.7" y="405" text-anchor="middle" class="label">R</text>
+<rect x="168.9" y="86.9" width="38.4" height="301.1" fill="#d86c5b"/>
+<text x="188.1" y="405" text-anchor="middle" class="label">L</text>
+<rect x="215.3" y="100.1" width="38.4" height="287.9" fill="#d86c5b"/>
+<text x="234.5" y="405" text-anchor="middle" class="label">P0</text>
+<rect x="261.7" y="117.9" width="38.4" height="270.1" fill="#d86c5b"/>
+<text x="281.0" y="405" text-anchor="middle" class="label">P1</text>
+<rect x="308.2" y="82.4" width="38.4" height="305.6" fill="#d86c5b"/>
+<text x="327.4" y="405" text-anchor="middle" class="label">P2</text>
+<rect x="354.6" y="126.7" width="38.4" height="261.3" fill="#d86c5b"/>
+<text x="373.8" y="405" text-anchor="middle" class="label">P3</text>
+<rect x="401.0" y="100.1" width="38.4" height="287.9" fill="#d86c5b"/>
+<text x="420.3" y="405" text-anchor="middle" class="label">P4</text>
+<rect x="447.5" y="109.0" width="38.4" height="279.0" fill="#d86c5b"/>
+<text x="466.7" y="405" text-anchor="middle" class="label">P5</text>
+<rect x="493.9" y="95.7" width="38.4" height="292.3" fill="#d86c5b"/>
+<text x="513.1" y="405" text-anchor="middle" class="label">P6</text>
+<rect x="540.3" y="104.6" width="38.4" height="283.4" fill="#d86c5b"/>
+<text x="559.6" y="405" text-anchor="middle" class="label">P7</text>
+<rect x="586.8" y="113.4" width="38.4" height="274.6" fill="#d86c5b"/>
+<text x="606.0" y="405" text-anchor="middle" class="label">P8</text>
+<rect x="633.2" y="135.6" width="38.4" height="252.4" fill="#d86c5b"/>
+<text x="652.4" y="405" text-anchor="middle" class="label">P9</text>
+<rect x="679.7" y="113.4" width="38.4" height="274.6" fill="#d86c5b"/>
+<text x="698.9" y="405" text-anchor="middle" class="label">P10</text>
+<rect x="726.1" y="122.3" width="38.4" height="265.7" fill="#d86c5b"/>
+<text x="745.3" y="405" text-anchor="middle" class="label">P11</text>
+<rect x="772.5" y="113.4" width="38.4" height="274.6" fill="#d86c5b"/>
+<text x="791.7" y="405" text-anchor="middle" class="label">P12</text>
+<rect x="819.0" y="113.4" width="38.4" height="274.6" fill="#d86c5b"/>
+<text x="838.2" y="405" text-anchor="middle" class="label">P13</text>
+<rect x="865.4" y="100.1" width="38.4" height="287.9" fill="#d86c5b"/>
+<text x="884.6" y="405" text-anchor="middle" class="label">P14</text>
+<rect x="911.8" y="140.0" width="38.4" height="248.0" fill="#d86c5b"/>
+<text x="931.0" y="405" text-anchor="middle" class="label">P15</text>
+<rect x="958.3" y="117.9" width="38.4" height="270.1" fill="#d86c5b"/>
+<text x="977.5" y="405" text-anchor="middle" class="label">P16</text>
+<rect x="1004.7" y="109.0" width="38.4" height="279.0" fill="#d86c5b"/>
+<text x="1023.9" y="405" text-anchor="middle" class="label">P17</text>
+<rect x="1051.1" y="82.4" width="38.4" height="305.6" fill="#d86c5b"/>
+<text x="1070.3" y="405" text-anchor="middle" class="label">P18</text>
+<rect x="1097.6" y="95.7" width="38.4" height="292.3" fill="#d86c5b"/>
+<text x="1116.8" y="405" text-anchor="middle" class="label">P19</text>
+<text x="72" y="428" class="note"><tspan fill="#1769aa">O</tspan> original  ·  R reverse  ·  L lexicographic xyz  ·  P0–P19 independent per-patch permutations</text>
+<text x="72" y="458" class="note">Representation controls outside the order series: lossless JSON roundtrip = 70  ·  exact duplicate insertion = 70</text>
+<text x="72" y="480" class="sub">Bar position indicates the frozen protocol order and does not imply a time trend or statistical significance</text>
+</svg>
