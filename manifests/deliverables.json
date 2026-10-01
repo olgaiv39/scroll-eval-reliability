@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3169,
-      "sha256": "408eddc2dfe94e13f04c74565e7b4868934548db34e8deb70821ed79b7b4d33b"
+      "bytes": 3482,
+      "sha256": "677774404c0e5d5c69318aaed0c7c701055ee80ac7ec0274ae3cfcf498caba3a"
     },
     {
       "path": "reports/STUDY.md",
@@ -30,6 +30,16 @@
       "path": "SESSION_CHECKPOINT.md",
       "bytes": 1756,
       "sha256": "9d157024d12013370c8a44a8c7f17201167eb5013f81e5b50bab60eb314b81f6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "ba6a603623e56a79c7e76ddd8f93d651eb460a20b1982bee10989d625bb5b25f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 4467,
+      "sha256": "b86022528493250792b75921187456559d42c7f5f83cf66d8863ff3639e16028"
     }
   ]
 }

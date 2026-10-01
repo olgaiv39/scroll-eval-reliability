@@ -53,10 +53,12 @@ OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREAD
 
 A fresh clone is not self-contained because it does not include the acquired data, virtual environment or cache
 
-## Attribution and licenses
+## License and attribution
 
 The pinned upstream source is [lightsgoblack/scroll-audits at d7401a7087710875e8e168e6d30410919d1739b9](https://github.com/lightsgoblack/scroll-audits/tree/d7401a7087710875e8e168e6d30410919d1739b9)
 
-Upstream code is MIT and upstream derived labels and scan data are CC BY-NC 4.0 under the upstream terms
+[LICENSE](LICENSE) applies to original project code only and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) records the applicable provenance and third-party terms
+
+The upstream declarations identify its code as MIT and its scan data and derived label files as CC BY-NC 4.0 under the upstream terms, while the available local declarations do not separately establish redistribution terms for the shipped alarm export
 
 This study is independent work and does not imply acceptance or endorsement by ScrollPrize or upstream maintainers
